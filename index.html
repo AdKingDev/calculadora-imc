@@ -6,33 +6,34 @@
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/media-query.css">
 
 </head>
 <body>
     
-    <main>
         <div class="container">
-            <div class="title">Calculadora - IMC</div>
+            <div class="title">Calculadora: IMC</div>
             <div class="input">
-                <label>Nome:</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" placeholder="Digite seu nome">
             </div>
 
             <div class="input">
-                <label>Peso (kg):</label>
-                <input type="number" id="peso">
+                <input type="number" id="peso" placeholder="Digite seu peso em kg">
             </div>
 
             <div class="input">
-                <label>Altura (m):</label>
-                <input type="number" id="altura">
+                <input type="number" id="altura" placeholder="Digite sua altura em metros">
             </div>
 
             <button id="calcular">Calcular</button>
 
             <div class="result" id="resultado"></div>
+
+            <footer>
+                <p>Desenvolvido por <a href="https://adking.dev" target="_blank">@adking.dev</a> &copy; 25/11/2025</p>
+            </footer>
         </div>
-    </main>
+
 
     <script src="assets/javascript/script.js"></script>
 </body>

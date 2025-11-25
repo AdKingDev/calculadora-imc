@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+    --cor1: #000000;
+    --cor2: #f3f4f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: url(../images/background02.jpg) var(--cor2) no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 350px;
+    padding: 30px 25px;
+
+    background: #edebdf;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input > label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--cor2);
+}
+
+.input > input {
+    height: 45px;
+    border-radius: 5px 0;
+    padding: 0 12px;
+
+    border: none;
+    background: var(--cor1);
+    color: var(--cor2);
+
+    font-size: 1.1rem;
+
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.input > input:focus {
+    border-color: #c6d3ee;
+    box-shadow: 0 0 0 3px #eb952533;
+    outline: none;
+}
+
+button {
+    height: 47px;
+    border: none;
+    border-radius: 8px;
+    background: #ffb74b;
+
+    font-weight: 600;
+    font-size: 1.05rem;
+    cursor: pointer;
+
+    transition: background .2s, transform .2s;
+}
+
+button:hover {
+    background: #cf6e1e;
+}
+button:active {
+    transform: scale(.97);
+}
+
+.result {
+    min-height: 60px;
+    padding: 12px;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    background: #ffcf874d;
+    border: 1px solid #b6af9d;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: #cf6e1e;
+}
