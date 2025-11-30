@@ -1,75 +1,73 @@
-@media (min-width: 360px) and (max-width: 767px) {
+@media (max-width: 767px) {
+
     .container {
-        min-width: 320px;
-        max-height: 480px;
+        width: 90vw;
+        max-width: 350px;
+        padding: 25px 20px;
     }
 
     .title {
-        font-size: 2rem;
-    }
-
-    .input {
-        height: 80px;;
+        font-size: 1.9rem;
     }
 
     .input > label {
+        font-size: 1.1rem;
+    }
+
+    .input > input {
+        height: 55px;
         font-size: 1.2rem;
     }
 
     button {
         font-size: 1.2rem;
-        height: 350px;
+        height: 55px;
     }
 
     .result {
         font-size: 1rem;
-        height: 450px;
+        min-height: 70px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 800px) {
+
     body {
-    background: url(../images/background01.jpg) var(--cor2) no-repeat center center fixed;
-    background-size: cover;
+        background: url(../images/background01.jpg) var(--cor2) no-repeat center center fixed;
+        background-size: cover;
     }
 
     .container {
         width: 600px;
-        height: 730px;
+        padding: 40px 30px;
     }
 
     .title {
-    font-size: 2.5rem;
-    }
-
-    .input {
-        font-size: 2;
-        padding: 10px;
-        height: auto;
+        font-size: 2.3rem;
     }
 
     .input > input {
-        height: 80px;
-        font-size: 1.5rem;
+        height: 70px;
+        font-size: 1.4rem;
     }
 
     .input > label {
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 1.6rem;
     }
 
     button {
-        font-size: 1.8rem;
-        height: 130px;
+        font-size: 1.5rem;
+        height: 90px;
     }
 
     .result {
-        font-size: 1.8rem;
-        height: 450px;
+        font-size: 1.4rem;
+        min-height: 120px;
     }
 }
 
 @media (min-width: 1280px) {
+
     body {
         background: url(../images/background03.jpg) no-repeat center center fixed;
         background-size: cover;
@@ -77,25 +75,25 @@
 
     .container {
         width: 600px;
-        height: 550px;
+        padding: 40px 35px;
     }
 
     .title {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .input > input {
         height: 60px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     button {
-        font-size: 1.5rem;
-        height: 120px;
+        font-size: 1.3rem;
+        height: 70px;
     }
 
     .result {
-        font-size: 1.5rem;
-        height: 200px;
+        font-size: 1.3rem;
+        min-height: 120px;
     }
 }
